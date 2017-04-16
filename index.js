@@ -1,6 +1,5 @@
 const express = require('express');
 const multer  = require('multer');
-const fs = require('fs');
 const pdf = require('html-pdf');
 const upload = multer();
 const app = express();
